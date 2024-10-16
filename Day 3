@@ -1,4 +1,4 @@
-1- given a list of numbers, write a program to find the mean of the numbers in list
+1- __given a list of numbers, write a program to find the mean of the numbers in list__
   list = [2,3,4]
   sum_list = sum(list)
   mean_list = sum_list/len(list)

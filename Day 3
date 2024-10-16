@@ -1,7 +1,21 @@
 1- given a list of numbers, write a program to find the mean of the numbers in list
+  list = [2,3,4]
+  sum_list = sum(list)
+  mean_list = sum_list/len(list)
+  
+  print("mean of list is", mean_list)
 
 2- given a list of numbers unsorted, write a program to find the median of the numbers in list
-
+  unsorted_list = [34, 7, 23, 32, 5, 62, 14, 50]
+  unsorted_list.sort()
+  
+  length = len(unsorted_list)
+  if length%2==0:
+      median = (unsorted_list[length//2 -1] + unsorted_list[length//2])/2
+  else:
+      median = unsorted_list[length//2]
+  
+  print(median)
 3- from a list of numbers create 2 list , one containing only the even numbers and other only the odd numbers
 
 4- create a dictionary to store following attributes of CSK 

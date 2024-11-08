@@ -3,7 +3,7 @@ example user input : Ankit,Bansal,35
 output:
 First name is Ankit
 last name is Bansal
-Ankit is 35 years old 
+Ankit is 35 years old
 
   user_input = input("Enter first name, last name, and age (comma-separated): ")
   first_name, last_name, age = user_input.split(',')
